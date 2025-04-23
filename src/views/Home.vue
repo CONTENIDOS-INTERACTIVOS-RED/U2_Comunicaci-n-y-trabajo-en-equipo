@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde sus inicios, las organizaciones han requerido una comunicación efectiva para alcanzar sus objetivos, establecer relaciones sólidas y garantizar el buen funcionamiento interno y externo. En esta primera unidad, se abordará el papel estratégico de la comunicación dentro del entorno empresarial, analizando su influencia en la cultura organizacional, la toma de decisiones, la resolución de conflictos y el trabajo colaborativo.
+              p.descripcion.mb-4 Desde el entorno organizacional actual, la habilidad para comunicarse de forma efectiva y trabajar en equipo se ha convertido en una competencia clave para el éxito profesional. Esta unidad profundiza en el desarrollo del liderazgo, la colaboración y la interacción efectiva entre individuos, resaltando la importancia de la empatía, la escucha activa y la gestión de conflictos como pilares del trabajo colaborativo. A lo largo del estudio, se identificarán los rasgos del líder, las dinámicas del trabajo en equipo y las técnicas personales y sociales necesarias para construir entornos de cooperación, innovación y respeto mutuo.
 
-              p #[b ¡Prepárese para fortalecer sus competencias comunicativas y potenciar su desempeño en equipos de trabajo empresariales!]
+              p #[b ¡Prepárese para liderar equipos con propósito y transformar su entorno laboral con comunicación efectiva y colaboración constante!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
