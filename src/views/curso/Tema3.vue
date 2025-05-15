@@ -51,11 +51,11 @@
           h2 Valorización de la diversidad en el trabajo en equipo
 
       .row.mb-4
-        .col-10.col-lg-6.col-xl-4.bg-marron.p-4.d-flex(data-aos='fade-up')
+        .col-12.col-lg-6.col-xl-4.bg-marron.p-4.d-flex(data-aos='fade-up')
           span En el mundo laboral contemporáneo, la diversidad es una realidad ineludible. Los equipos suelen estar compuestos por personas de diferentes orígenes, culturas, habilidades y personalidades. Esta diversidad puede ser una poderosa ventaja competitiva si se maneja adecuadamente. Reconocer y valorar las diferencias entre los miembros del equipo, enriquece el proceso creativo y permite abordar problemas desde múltiples perspectivas.
         .col-4.d-none.d-xl-block
           img(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
-        .col-10.col-lg-6.col-xl-4.bg-verde.p-4.d-flex(data-aos='fade-up')
+        .col-12.col-lg-6.col-xl-4.bg-verde.p-4.d-flex(data-aos='fade-up')
           span La inclusión de ideas y enfoques diversos, no solo mejora la toma de decisiones, sino que también impulsa la innovación. Los equipos que fomentan un ambiente inclusivo son más capaces de adaptarse a los cambios y encontrar soluciones efectivas a los desafíos que enfrentan. Además, la diversidad en el equipo, puede atraer diferentes talentos y habilidades, lo que a su vez mejora la capacidad del equipo para alcanzar sus objetivos.
 
       #t_3_4.titulo-segundo(data-aos="flip-up")
@@ -108,7 +108,7 @@
         div.px-5.pb-md-3
           figure
             .video
-              iframe(width='560' height='315' src='https://www.youtube.com' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
+              <iframe width="1905" height="748" src="https://www.youtube.com/embed/mZ7_n6PfL_0" title="Gestión de conflictos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
       #t_3_6.titulo-segundo(data-aos="flip-up")
         div.d-flex
@@ -182,7 +182,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Liderazgo y Trabajo en Equipo',
+      tema: 'Unidad II: Fundamentos de Liderazgo',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -191,51 +191,125 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es una característica clave del liderazgo según el texto?',
+            '¿Cuál de las siguientes afirmaciones describe mejor el liderazgo informal?',
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Tener un título formal', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Requiere un cargo jerárquico para ejercer influencia.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
-              texto: 'Influenciar e inspirar a otros',
+              texto: 'Surge de manera espontánea y sin autoridad formal.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Tomar decisiones unilateralmente',
+              texto: 'Se basa exclusivamente en habilidades técnicas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Mantener una jerarquía estricta',
+              texto: 'Solo es reconocido en estructuras verticales.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'El texto enfatiza que el liderazgo implica la capacidad de influir e inspirar a otros, no solo ocupar una posición jerárquica.',
+            'Lo sentimos, su respuesta no es la correcta. El liderazgo informal no depende de un cargo jerárquico, sino de la capacidad de influir positivamente en los demás sin autoridad formal.',
         },
         {
           id: 2,
-          texto: 'La gestión de conflictos en un equipo debe ser vista como:',
+          texto:
+            "¿Cuál es una habilidad del 'ser' que distingue a un líder efectivo?",
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Un signo de debilidad', esCorrecta: false },
+            { id: 'a', texto: 'Dominio técnico.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'Una oportunidad de crecimiento',
-              esCorrecta: true,
+              texto: 'Capacidad para delegar tareas.',
+              esCorrecta: false,
             },
-            { id: 'c', texto: 'Un problema a evitar', esCorrecta: false },
+            { id: 'c', texto: 'Empatía y comunicación.', esCorrecta: true },
             {
               id: 'd',
-              texto: 'Una tarea exclusiva del líder',
+              texto: 'Toma de decisiones basada en datos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto:
-            'Los conflictos pueden ser catalizadores para la innovación y el crecimiento si se manejan adecuadamente.',
+            "Lo sentimos, su respuesta no es la correcta. Las habilidades del 'ser', como la empatía y la comunicación, son esenciales para conectar y movilizar a otros.",
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué diferencia principal existe entre un grupo y un equipo de trabajo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El equipo es más numeroso que el grupo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El grupo tiene identidad y metas comunes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El equipo presenta interacción, identidad y objetivos compartidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El grupo trabaja mejor bajo presión.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. A diferencia de un grupo, un equipo tiene identidad, interacción activa y objetivos comunes bien definidos.',
+        },
+        {
+          id: 4,
+          texto: '¿Cuál es un componente fundamental del liderazgo personal?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Obediencia a superiores.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Conformidad con las normas sociales.',
+              esCorrecta: false,
+            },
+            { id: 'c', texto: 'Capacidad de autoliderarse.', esCorrecta: true },
+            {
+              id: 'd',
+              texto: 'Delegar funciones constantemente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. El liderazgo personal implica la capacidad de dirigir las propias acciones hacia metas significativas.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué tipo de liderazgo suele inspirar y motivar sin necesidad de ejercer poder formal?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Autoritario.', esCorrecta: false },
+            { id: 'b', texto: 'Transformacional.', esCorrecta: true },
+            { id: 'c', texto: 'Laissez-faire.', esCorrecta: false },
+            { id: 'd', texto: 'Burocrático.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto:
+            'Lo sentimos, su respuesta no es la correcta. El liderazgo transformacional se basa en la inspiración, motivación y visión compartida sin necesidad de autoridad formal.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

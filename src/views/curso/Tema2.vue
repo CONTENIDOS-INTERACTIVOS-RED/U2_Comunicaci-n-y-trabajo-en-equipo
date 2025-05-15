@@ -49,19 +49,19 @@
                 div.mb-4
                   p.text-bold.text-center Equipos auto gestionados
                   p.text-small.px-4.text-center.pb-2 Los cuales son responsables de realizar un producto, componente o servicio.
-            .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+            .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-up")
               div.custom-image-card.rounded-8px
                 img.mb-4(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
                 div.mb-4
                   p.text-bold.text-center Equipos de proyecto
                   p.text-small.px-4.text-center.pb-2 Se caracterizan por tener un proyecto con un comienzo y fin determinado.
-            .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
+            .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-up")
+              div.custom-image-card.rounded-8pxf
                 img.mb-4(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
                 div.mb-4
                   p.text-bold.text-center Equipos paralelos
                   p.text-small.px-4.text-center.pb-2 Quienes se centran en un problema o cuestión que requiere solo un compromiso a tiempo parcial.
-            .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-right")
+            .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mx-auto(data-aos="fade-left")
               div.custom-image-card.rounded-8px
                 img.mb-4(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
                 div.mb-4
@@ -107,7 +107,7 @@
             .my-auto
               p.pe-xl-3.mb-3.text-bold Segundo
               span La solidaridad
-        .col-10.col-md-6.col-xl-4
+        .col-10.col-md-6.col-xl-4.mx-auto
           .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-38.svg', alt='Texto descriptivo de la imagen')
             .my-auto

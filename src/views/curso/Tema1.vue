@@ -15,8 +15,8 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Habilidades requeridas para ser líder
-          p.mb-5(data-aos="fade-up") En el PDF Habilidades requeridas para ser líder , se analiza cómo el liderazgo puede ejercerse desde el autoliderazgo hasta la influencia positiva en grupos, destacando habilidades como la empatía, la toma de decisiones, la comunicación y el aprendizaje continuo, que son fundamentales para construir relaciones efectivas y liderar con propósito.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          p.mb-5(data-aos="fade-up") En el PDF Habilidades requeridas para ser líder, se analiza cómo el liderazgo puede ejercerse desde el autoliderazgo hasta la influencia positiva en grupos, destacando habilidades como la empatía, la toma de decisiones, la comunicación y el aprendizaje continuo, que son fundamentales para construir relaciones efectivas y liderar con propósito.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Habilidades_requeridas.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Habilidades requeridas para ser líder
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
@@ -94,11 +94,11 @@
 
     h2 Conocimiento técnico y toma de decisiones
     .row.mb-4
-      .col-10.col-lg-6.col-xl-4.bg-azul.p-4.d-flex(data-aos='fade-up')
+      .col-12.col-lg-6.col-xl-4.bg-azul.p-4.d-flex(data-aos='fade-up')
         span Por otro lado, las habilidades del "hacer" se refieren a las acciones concretas y estrategias que un líder implementa para alcanzar objetivos y resolver problemas. Aunque estas habilidades son importantes, carecen del mismo impacto transformador que las cualidades del "ser". Un líder puede poseer un gran conocimiento técnico y ser capaz de tomar decisiones acertadas, pero sin las competencias interpersonales adecuadas, su influencia será limitada. 
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
-      .col-10.col-lg-6.col-xl-4.bg-naranja.p-4.d-flex(data-aos='fade-up')
+      .col-12.col-lg-6.col-xl-4.bg-naranja.p-4.d-flex(data-aos='fade-up')
         span Un liderazgo efectivo se fundamenta en un equilibrio entre el "ser" y el "hacer", donde las características personales juegan un papel crucial en la capacidad de un individuo para guiar y motivar a otros hacia el logro de metas compartidas. Este entendimiento permite desarrollar líderes más completos y capaces de enfrentar los retos del entorno actual.
 
     h2 Motivación al logro
