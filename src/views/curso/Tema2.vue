@@ -187,7 +187,7 @@
           p  <b>Organizar actividades de <i>team building</i></b>, que fortalezcan las relaciones interpersonales y la cohesión del grupo. También es importante ofrecer capacitación en habilidades interpersonales, tales como comunicación, resolución de conflictos y liderazgo, que son esenciales para un trabajo en equipo efectivo.
         .tarjeta.bg-white.p-4(x='43.4%' y='16%' numero='+')
           .h5.mb-2 2. Asignación de proyectos en grupo
-          p  <b>Asignación de proyectos en grupo</b>, permite que los miembros practiquen el trabajo en equipo en un contexto real, mientras que un sistema de <i>feedback</i> constructivo, promueve la mejora continua al permitir que los miembros evalúen su desempeño y el de sus compañeros. Esto
+          p  <b>Asignación de proyectos en grupo</b>, permite que los miembros practiquen el trabajo en equipo en un contexto real, mientras que un sistema de <i>feedback</i> constructivo, promueve la mejora continua al permitir que los miembros evalúen su desempeño y el de sus compañeros.
         .tarjeta.bg-white.p-4(x='57.5%' y='16%' numero='+')
           .h5.mb-2 3. Facilitar la mentoría entre compañeros
           p  <b>Facilitar la mentoría entre compañeros</b>, donde los miembros más experimentados guían a los nuevos, contribuye a un ambiente de apoyo. Además, la celebración de los éxitos del equipo, mediante protocolos o prácticas, refuerza la motivación y el sentido de pertenencia.
